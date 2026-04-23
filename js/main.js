@@ -1,49 +1,59 @@
 // Common Legal Data
 const privacyContent = `
-    <p>Effective Date: 19/04/2026 Last Updated: 19/04/2026</p>
-    <p>Welcome to <strong>AquaLogic Studio</strong>. This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile applications.</p>
-    <p>By using our Apps, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
-    
+    <h2>Privacy Policy</h2>
+    <p><strong>App Name:</strong> Water Sort — Color Puzzle</p>
+    <p><strong>Developer:</strong> AquaLogic Studio (Google Play Developer)</p>
+    <p>Effective Date: 19/04/2026 | Last Updated: 19/04/2026</p>
+
+    <p>This Privacy Policy applies specifically to the Android application <strong>"Water Sort — Color Puzzle"</strong> published on the Google Play Store by <strong>AquaLogic Studio</strong>.</p>
+
+    <p>This policy explains how information is collected, used, and protected when you use this app.</p>
+
     <h3>1. Information We Collect</h3>
-    <p>Our Apps do not require account registration. However, certain information may be collected automatically.</p>
+    <p>This app does not require account registration. We only collect limited data automatically.</p>
     
-    <h4>A. Automatically Collected Information</h4>
+    <h4>Automatically Collected Information</h4>
     <ul>
         <li>Device type and model</li>
         <li>Operating system version</li>
-        <li>App usage statistics</li>
+        <li>App usage data</li>
         <li>IP address</li>
-        <li>Advertising ID (e.g., Google Advertising ID)</li>
+        <li>Advertising ID (Google Advertising ID)</li>
         <li>Crash logs and diagnostics</li>
     </ul>
-    <p>This information is used to improve app performance and user experience.</p>
-    
-    <h4>B. Advertising (Google AdMob)</h4>
-    <p>App uses Google AdMob to display advertisements.</p>
-    <p>AdMob may collect: Device identifiers, Advertising ID, Approximate location (based on IP address), App interaction data, and Ad performance data.</p>
-    <p>This data may be used to show personalized or non-personalized ads and measure advertising performance.</p>
-    <p>For more information, please review Google’s Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
-    
-    <h3>2. How We Use Information</h3>
+
+    <h3>2. Advertising (Google AdMob)</h3>
+    <p>This app uses Google AdMob, a third-party advertising service provided by Google.</p>
+    <p>AdMob may collect:</p>
     <ul>
-        <li>To provide and maintain the App</li>
-        <li>To improve performance and stability</li>
-        <li>To display advertisements</li>
-        <li>To analyze app usage trends</li>
-        <li>To prevent fraud and misuse</li>
+        <li>Device identifiers</li>
+        <li>Advertising ID</li>
+        <li>Approximate location (via IP address)</li>
+        <li>App interaction data</li>
+        <li>Ad performance data</li>
     </ul>
-    <p>We do not sell personal data.</p>
-    
-    <h3>3. Personalized Advertising & User Choices</h3>
-    <p>Depending on your region, you may see personalized or non-personalized ads. You can manage advertising preferences by resetting your Advertising ID in device settings or opting out in your Google account settings.</p>
-    
-    <h3>4. Children's Privacy</h3>
-    <p>Our Apps are general audience applications and are not specifically directed at children under 13. We do not knowingly collect personal information from children.</p>
-    
-    <h3>5. Contact Us</h3>
-    <p>If you have questions about this Privacy Policy, please contact: <strong>aquacoderwwdc@gmail.com</strong></p>
-    
-    <p class="mt-4 small text-secondary">© 2026 AquaLogic Studio. All Rights Reserved.</p>
+    <p>This data is used to display ads and measure their effectiveness.</p>
+    <p>Learn more: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+    <h3>3. How We Use Information</h3>
+    <ul>
+        <li>To operate and maintain the app</li>
+        <li>To improve app performance and stability</li>
+        <li>To display advertisements</li>
+        <li>To analyze usage trends</li>
+    </ul>
+    <p>We do <strong>not sell personal data</strong>.</p>
+
+    <h3>4. User Choices</h3>
+    <p>You can control advertising preferences by resetting your Advertising ID or adjusting your Google ad settings.</p>
+
+    <h3>5. Children's Privacy</h3>
+    <p>This app is not directed to children under 13. We do not knowingly collect personal data from children.</p>
+
+    <h3>6. Contact</h3>
+    <p>Email: <strong>aquacoderwwdc@gmail.com</strong></p>
+
+    <p class="mt-4 small text-secondary">© 2026 AquaLogic Studio</p>
 `;
 
 const termsContent = `
@@ -97,7 +107,7 @@ function initContactForm() {
 
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        
+
         const name = contactForm.querySelector('input[type="text"]').value;
         const email = contactForm.querySelector('input[type="email"]').value;
         const product = contactForm.querySelector('select').value || 'General Inquiry';
@@ -105,10 +115,10 @@ function initContactForm() {
 
         const subject = encodeURIComponent(`Support Request: ${product} from ${name}`);
         const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nProduct: ${product}\n\nMessage:\n${message}`);
-        
+
         // Construct mailto link
         const mailtoLink = `mailto:aquacoderwwdc@gmail.com?subject=${subject}&body=${body}`;
-        
+
         // Open user's email client
         window.location.href = mailtoLink;
 
