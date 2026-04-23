@@ -1,6 +1,5 @@
 // Common Legal Data
 const privacyContent = `
-    <h2>Privacy Policy</h2>
     <p><strong>App Name:</strong> Water Sort — Color Puzzle</p>
     <p><strong>Developer:</strong> AquaLogic Studio (Google Play Developer)</p>
     <p><strong>Contact Email:</strong> studygoallakshya@gmail.com</p>
@@ -58,7 +57,6 @@ const privacyContent = `
 `;
 
 const termsContent = `
-    <h2>Terms and Conditions</h2>
     <p><strong>App Name:</strong> Water Sort — Color Puzzle</p>
     <p><strong>Developer:</strong> AquaLogic Studio</p>
     <p><strong>Contact Email:</strong> studygoallakshya@gmail.com</p>
@@ -89,3 +87,26 @@ const termsContent = `
 
     <p class="mt-4 small text-secondary">© 2026 AquaLogic Studio</p>
 `;
+
+// Logic to inject content into the pages
+document.addEventListener('DOMContentLoaded', () => {
+    const legalView = document.getElementById('legal-content-view');
+    if (legalView) {
+        // Simple check based on the title or filename
+        const pageTitle = document.title.toLowerCase();
+
+        if (pageTitle.includes('privacy')) {
+            legalView.style.opacity = '0';
+            legalView.innerHTML = privacyContent;
+            setTimeout(() => {
+                legalView.style.opacity = '1';
+            }, 50);
+        } else if (pageTitle.includes('terms')) {
+            legalView.style.opacity = '0';
+            legalView.innerHTML = termsContent;
+            setTimeout(() => {
+                legalView.style.opacity = '1';
+            }, 50);
+        }
+    }
+});
