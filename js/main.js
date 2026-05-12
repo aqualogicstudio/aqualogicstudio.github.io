@@ -1,89 +1,49 @@
 // Common Legal Data
 const privacyContent = `
-    <p><strong>App Name:</strong> Water Sort — Color Puzzle</p>
-    <p><strong>Developer:</strong> AquaLogic Studio (Google Play Developer)</p>
+    <p><strong>Entity:</strong> AquaLogic Studio</p>
     <p><strong>Contact Email:</strong> studygoallakshya@gmail.com</p>
-    <p>Effective Date: 19/04/2026 | Last Updated: 19/04/2026</p>
+    <p>Effective Date: 11/05/2026 | Last Updated: 11/05/2026</p>
 
-    <p>This Privacy Policy applies specifically to the Android application <strong>"Water Sort — Color Puzzle"</strong> published on the Google Play Store by <strong>AquaLogic Studio</strong>.</p>
+    <p>This Privacy Policy applies to the services and applications provided by <strong>AquaLogic Studio</strong>.</p>
 
-    <p>This policy explains how information is collected, used, and protected when you use this app.</p>
+    <p>We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our games.</p>
 
     <h3>1. Information We Collect</h3>
-    <p>This app does not require account registration. We only collect limited data automatically.</p>
+    <p>We may collect limited data to improve our services, including device information and app usage statistics. We do not collect personally identifiable information unless you provide it to us directly (e.g., via contact forms).</p>
     
-    <h4>Automatically Collected Information</h4>
-    <ul>
-        <li>Device type and model</li>
-        <li>Operating system version</li>
-        <li>App usage data</li>
-        <li>IP address</li>
-        <li>Advertising ID (Google Advertising ID)</li>
-        <li>Crash logs and diagnostics</li>
-    </ul>
+    <h3>2. Third-Party Services</h3>
+    <p>Our games may use third-party services like Google AdMob and Firebase. These services may collect information as per their own privacy policies.</p>
 
-    <h3>2. Advertising (Google AdMob)</h3>
-    <p>This app uses Google AdMob, a third-party service provided by Google.</p>
-    <p>AdMob may collect:</p>
-    <ul>
-        <li>Device identifiers</li>
-        <li>Advertising ID</li>
-        <li>Approximate location (via IP address)</li>
-        <li>App interaction data</li>
-        <li>Ad performance data</li>
-    </ul>
-    <p>This data is used to display advertisements and measure performance.</p>
-    <p>Learn more: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+    <h3>3. Data Usage</h3>
+    <p>Data collected is used to optimize performance, analyze trends, and provide relevant advertisements.</p>
 
-    <h3>3. How We Use Information</h3>
-    <ul>
-        <li>To operate and maintain the app</li>
-        <li>To improve performance and stability</li>
-        <li>To display advertisements</li>
-        <li>To analyze usage trends</li>
-    </ul>
-    <p>We do <strong>not sell personal data</strong>.</p>
-
-    <h3>4. User Choices</h3>
-    <p>You can control advertising preferences by resetting your Advertising ID or adjusting your Google ad settings.</p>
-
-    <h3>5. Children's Privacy</h3>
-    <p>This app is not directed to children under 13. We do not knowingly collect personal data from children.</p>
-
-    <h3>6. Contact</h3>
-    <p>Email: <strong>studygoallakshya@gmail.com</strong></p>
+    <h3>4. Contact Us</h3>
+    <p>If you have any questions about this Privacy Policy, please contact us at <strong>studygoallakshya@gmail.com</strong>.</p>
 
     <p class="mt-4 small text-secondary">© 2026 AquaLogic Studio</p>
 `;
 
 const termsContent = `
-    <p><strong>App Name:</strong> Water Sort — Color Puzzle</p>
-    <p><strong>Developer:</strong> AquaLogic Studio</p>
+    <p><strong>Entity:</strong> AquaLogic Studio</p>
     <p><strong>Contact Email:</strong> studygoallakshya@gmail.com</p>
-    <p>Effective Date: 19/04/2026 | Last Updated: 19/04/2026</p>
+    <p>Effective Date: 11/05/2026 | Last Updated: 11/05/2026</p>
 
-    <p>These Terms apply to the mobile application <strong>"Water Sort — Color Puzzle"</strong> developed by <strong>AquaLogic Studio</strong>. By using the app, you agree to these Terms.</p>
+    <p>By accessing or using any game or service provided by <strong>AquaLogic Studio</strong>, you agree to be bound by these Terms of Service.</p>
     
-    <h3>1. Description of Service</h3>
-    <p>This app provides a puzzle game experience supported by advertisements. Features may be updated or changed at any time.</p>
+    <h3>1. Use of Services</h3>
+    <p>Our games are intended for personal, non-commercial use. You agree not to modify, reverse engineer, or distribute our games without permission.</p>
     
-    <h3>2. General Use</h3>
-    <p>You agree to use the app in accordance with applicable laws and not misuse or interfere with the app.</p>
+    <h3>2. Intellectual Property</h3>
+    <p>All content, including graphics, code, and titles, are the property of AquaLogic Studio.</p>
     
-    <h3>3. Advertisements</h3>
-    <p>The app uses third-party advertising services such as Google AdMob, which may collect device and usage data.</p>
+    <h3>3. Disclaimer of Warranties</h3>
+    <p>Our services are provided "as is" without any warranties, express or implied.</p>
     
-    <h3>4. Intellectual Property</h3>
-    <p>All content in the app is owned by or licensed to <strong>AquaLogic Studio</strong> and protected by law.</p>
+    <h3>4. Limitation of Liability</h3>
+    <p>AquaLogic Studio shall not be liable for any damages arising out of your use of our games.</p>
     
-    <h3>5. Disclaimer</h3>
-    <p>The app is provided "as is" without warranties of any kind.</p>
-    
-    <h3>6. Limitation of Liability</h3>
-    <p>AquaLogic Studio is not liable for any indirect or consequential damages.</p>
-    
-    <h3>7. Contact</h3>
-    <p>Email: <strong>studygoallakshya@gmail.com</strong></p>
+    <h3>5. Changes to Terms</h3>
+    <p>We reserve the right to update these terms at any time. Your continued use of our services constitutes acceptance of the new terms.</p>
 
     <p class="mt-4 small text-secondary">© 2026 AquaLogic Studio</p>
 `;
